@@ -1,7 +1,7 @@
 const asyncFilter = async (arr, f) =>
   (
     await Promise.all(
-      e.map(async (e) => ({
+      arr.map(async (e) => ({
         filter: await f(e),
         e,
       }))
