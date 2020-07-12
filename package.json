@@ -1,9 +1,9 @@
 {
   "name": "@raydeck/asyncfilter",
-  "version": "2.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "lib/index.js",
-  "types": "lib/types",
+  "main": "dist/index.js",
+  "types": "dist/types",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc &&  yarn pack -f package.tgz"
