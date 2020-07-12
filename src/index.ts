@@ -1,6 +1,6 @@
 const asyncFilter = async <T>(
   arr: T[],
-  f: (item: T) => boolean
+  f: (item: T) => Promise<boolean>
 ): Promise<T[]> =>
   (
     await Promise.all(
